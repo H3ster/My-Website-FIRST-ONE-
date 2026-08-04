@@ -71,6 +71,8 @@ body{
    border-radius: 20px;
    height: 280px; 
    width: 330px;
+
+   opacity: none;
    
    display:block;
     margin:20px auto;
@@ -333,8 +335,8 @@ display:none;
 }
 
 .about-me-img{
-  height: 270px; 
-  width: 320px;  
+  height: 250px; 
+  width: 300px;  
 }
 
 .float-doodle-11{
@@ -366,6 +368,20 @@ display:none;
     font-family:"just me again down here";
     background-color: #B7C8B4;
     opacity: 0.92;
+}
+
+.About-Me{
+    position: relative;
+    align-items: center;
+    width:100%;
+    max-width:400px;
+    height: 750px;
+    border-radius: 20px;
+
+    font-family:"just me again down here";
+    background-color: #B7C8B4;
+    opacity: 0.92;
+    
 }
 
 .coming-soon-projects{
