@@ -276,11 +276,11 @@ font-size: 20px;
 
 
 .coming-soon-projects{
-    position: absolute;
+    position: relative;
     height: 200px;
 
-    bottom: 400px;
-    left: 20px;
+    bottom: -50px;
+    left: -10px;
 }
 
 .text-box1{
