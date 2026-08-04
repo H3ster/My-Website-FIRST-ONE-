@@ -117,9 +117,6 @@ button:hover{
     transform:translateY(-3px);
 }
 
-.banner:hover{
-    transform:translateY(-3px);
-}
 
 h1{
 font-family: "just me again down here";
@@ -137,9 +134,9 @@ color: #d3d3d3;
 }
 
 .float-doodle-11{
-    position: absolute;
-    bottom: 620px;
-    left: 20px;
+    position: relative;
+    bottom: 645px;
+    left: 40px;
     width: 380px;
 }
 
@@ -291,6 +288,13 @@ font-size: 20px;
     z-index: 2;
 }
 
+.text-box{
+    padding: 20px;
+    font-family:"Jacques Francois";
+    font-size: 10px;
+}
+
+
 @media (max-width:768px){
 
 .float-doodle-15{
@@ -334,7 +338,41 @@ display:none;
 }
 
 .float-doodle-11{
-    width: 360px;
+    position: relative;
+    bottom: 600px;
+    left: -15px;
+    width: 220px;
 }
 
+.content-box{
+    width: 850px;
+    height: 750px;
+
+    background-color:#B7C8B4; 
+
+    border-radius: 20px;
+    opacity: 0.92;
+    padding-top: 0px;
+    padding-left:30px;
+   
+    }
+
+    .Current-Developments{
+    position: relative;
+    width: 300px;
+    height: 750px;
+    border-radius: 20px;
+
+    font-family:"just me again down here";
+    background-color: #B7C8B4;
+    opacity: 0.92;
+}
+
+.coming-soon-projects{
+    position: relative;
+    height: 100px;
+
+    bottom: -50px;
+    left: 1px;
+}
 }
