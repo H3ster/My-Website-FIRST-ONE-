@@ -1,0 +1,340 @@
+body{
+    background-image: url(https://wallpapers.com/images/hd/black-and-white-grid-aesthetic-9qjrt503y0n54spf.jpg);
+}
+    .banner{
+    height:120px;
+    width:100%;
+    max-width:1400px;
+    background-image:url("Rectangle\ 2\ \(1\).png");
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:auto;
+}
+   
+    .content-box{
+    width:100%;
+    max-width:950px;    
+    height: 670px;
+
+    background-color:#B7C8B4; 
+
+    border-radius: 20px;
+    opacity: 0.92;
+    padding-top: 30px;
+    padding-left:30px;
+   }
+
+
+
+    .content-box1{
+    width: 950px;
+    height: 700px;
+
+    background-color:#B7C8B4; 
+
+    border-radius: 20px;
+    opacity: 0.92;
+    padding-top: 0px;
+    padding-left:30px;
+   
+    }
+
+
+
+.ABOUT-MEH-PAGE{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+
+
+    font-size: 50px;
+    text-align: center;
+}
+
+.About-Me{
+    position: relative;
+    align-items: center;
+    width:100%;
+    max-width:400px;
+    height: 700px;
+    border-radius: 20px;
+
+    font-family:"just me again down here";
+    background-color: #B7C8B4;
+    opacity: 0.92;
+    
+}
+
+.about-me-img{
+   border-radius: 20px;
+   height: 280px; 
+   width: 330px;
+   
+   display:block;
+    margin:20px auto;
+}
+
+.Current-Developments{
+    position: relative;
+    width: 400px;
+    height: 700px;
+    border-radius: 20px;
+
+    font-family:"just me again down here";
+    background-color: #B7C8B4;
+    opacity: 0.92;
+
+    
+}
+    
+
+
+.my-buttons{
+    display:flex;
+    justify-content:center;
+    gap: 150px;
+    flex-wrap:wrap;
+
+
+
+}
+
+button {
+    padding: 20px 50px;
+    border-radius: 20cm;
+    border: none;
+    background-color: #ABB7AA;
+    font-size: 15px;
+    font-family:"Jacques Francois";
+    color: white;
+    cursor:pointer;
+    
+}
+
+button:hover{
+    transform:translateY(-3px);
+}
+
+.banner:hover{
+    transform:translateY(-3px);
+}
+
+h1{
+font-family: "just me again down here";
+color: #d3d3d3;
+}
+
+
+.DREAMX-PAGE{
+    display:flex;
+    justify-content:center;
+    gap:50px;
+
+    font-size: 50px;
+    text-align: center;
+}
+
+.float-doodle-11{
+    position: absolute;
+    bottom: 620px;
+    left: 20px;
+    width: 380px;
+}
+
+.float-doodle-9{
+    position: absolute;
+    bottom: 710px;
+    left: 80px;
+    
+}
+
+.float-doodle-1{
+    position: absolute;
+    bottom: 560px;
+    left: 970px;
+    height: 45px;
+}
+
+.float-doodle-10{
+    position: absolute;
+    bottom: 710px;
+    left: 1300px;
+}
+
+.float-doodle-8{
+    position: absolute;
+    bottom: 580px;
+    left: 525px;
+}
+
+.float-doodle-4{
+    position: absolute;
+    bottom: 600px;
+    left: 340px;
+}
+
+.float-doodle-2{
+    position: absolute;
+    bottom: 565px;
+    left: 200px;
+}
+
+.float-doodle-6{
+    position: absolute;
+    bottom: 570px;
+    left: 440px;
+}
+
+.float-doodle-5{
+    position: absolute;
+    bottom: 610px;
+    left: 760px;
+}
+
+.float-doodle-7{
+    position: absolute;
+    bottom: 590px;
+    left: 850px;
+}
+
+.float-doodle-12{
+    position: absolute;
+    bottom: 580px;
+    left: 1150px;
+}
+
+.float-doodle-3{
+    position: absolute;
+    bottom: 610px;
+    left: 1100px; 
+}
+
+.float-doodle-13{
+    position: absolute;
+    bottom: 200px;
+    left: 500px; 
+}
+
+.float-doodle-14{
+    position: absolute;
+    bottom: 580px;
+    left: 70px;
+}
+
+.float-doodle-15{
+    position: absolute;
+    bottom: 590px;
+    left: 1400px;
+}
+
+
+
+.coming-soon-game {
+    height: 110px;
+    width: 200px;
+}
+
+.coming-soon-photography{
+    height: 110px;
+    width: 200px;
+}
+
+.project-row-1{
+    display:flex;
+    justify-content: flex-start;
+    gap: 20px;
+    align-items:center;
+
+    border-bottom:2px solid #8A9985;
+
+    padding-bottom:20px;
+    margin-bottom:20px;
+}
+
+.project-row-2{
+   display:flex;
+    justify-content: flex-start;
+    gap: 20px;
+    align-items:flex-start;
+
+    border-bottom:2px solid #8A9985;
+
+    padding-bottom:20px;
+    margin-bottom:20px;
+}
+
+p{
+    font-family:"Jacques Francois";
+    font-size: 20px;
+}
+
+ul{
+font-size: 20px;
+}
+
+
+.coming-soon-projects{
+    position: absolute;
+    height: 200px;
+
+    bottom: 400px;
+    left: 20px;
+}
+
+.text-box1{
+    position: absolute;
+    bottom: 320px;
+    left: 40px;
+
+    z-index: 2;
+}
+
+@media (max-width:768px){
+
+.float-doodle-15{
+
+display:none;
+}
+
+.float-doodle-3{
+    display: none;
+}
+
+.float-doodle-12{
+    display: none;
+}
+.float-doodle-10{
+    display: none;
+}
+.float-doodle-7{
+    display: none;
+}
+.float-doodle-1{
+    display: none;
+}
+.float-doodle-5{
+    display: none;
+}
+
+.my-buttons{
+    display:flex;
+    justify-content:center;
+    gap: 110px;
+   }
+
+   .float-doodle-13{
+    display: none;
+}
+
+.about-me-img{
+  height: 270px; 
+  width: 320px;  
+}
+
+.float-doodle-11{
+    width: 360px;
+}
+
+}
