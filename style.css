@@ -1072,7 +1072,7 @@ h1{
 
     .banner{
     height:120px;
-    width:410px;
+    width:400px;
     background-image:url("Rectangle\ 2\ \(1\).png");
 
     display:flex;
@@ -1135,8 +1135,8 @@ display:none;
 }
 
 .about-me-img{
-  height: 250px; 
-  width: 300px;  
+  height: 200px; 
+  width: 250px;  
 }
 
 .float-doodle-11{
@@ -1148,7 +1148,7 @@ display:none;
 
 .content-box{
     position: relative;
-    width: 360px;
+    width: 350px;
     height: 750px;
 
     background-color:#B7C8B4; 
@@ -1189,8 +1189,9 @@ display:none;
     align-items: center;
     width:100%;
     max-width:400px;
-    height: 750px;
+    height: 375px;
     border-radius: 20px;
+    font-size: 35px;
 
     font-family:"just me again down here";
     background-color: #B7C8B4;
