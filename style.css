@@ -99,8 +99,6 @@ body{
     gap: 150px;
     flex-wrap:wrap;
 
-
-
 }
 
 button {
@@ -111,8 +109,8 @@ button {
     font-size: 15px;
     font-family:"Jacques Francois";
     color: white;
-    cursor:pointer;
-    
+    cursor:pointer;   
+
 }
 
 button:hover{
@@ -123,6 +121,8 @@ button:hover{
 h1{
 font-family: "just me again down here";
 color: #d3d3d3;
+font-size: 70px;
+text-align: center;
 }
 
 
@@ -292,8 +292,468 @@ font-size: 20px;
 
 .text-box{
     padding: 20px;
+    font-family:"Jacques Francois";    font-size: 1px;
+}
+
+@media (max-width:1200px){
+
+.float-doodle-15{
+
+display:none;
+}
+
+.float-doodle-3{
+    display: none;
+}
+
+.float-doodle-12{
+    display: none;
+}
+.float-doodle-10{
+    display: none;
+}
+.float-doodle-7{
+    display: none;
+}
+.float-doodle-1{
+    display: none;
+}
+.float-doodle-5{
+    display: none;
+}
+
+.float-doodle-13{
+    display: none;
+}
+
+.my-buttons{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    gap: 125px;
+   }
+
+   .float-doodle-13{
+    display: none;
+}
+
+.about-me-img{
+  height: 250px; 
+  width: 300px;  
+}
+
+.float-doodle-11{
+    position: relative;
+    bottom: 720px;
+    left: 100px;
+    width: 350px;
+}
+
+.content-box{
+    position: relative;
+    width: 500px;
+    height: 750px;
+
+    background-color:#B7C8B4; 
+
+    border-radius: 20px;
+    opacity: 0.92;
+    padding-top: 30px;
+    padding-left:30px;
+    left: -10px;
+
+    }
+
+    .Current-Developments{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 400px;
+    height: 780px;
+    border-radius: 20px;
+    left: -20px;
+    gap: 20px;
+
+    font-family:"just me again down here";
+    background-color: #B7C8B4;
+    opacity: 0.92;
+}
+
+.DREAMX-PAGE{
+    flex-direction: row;
+
+    gap:50px;
+    font-size: 50px;
+    text-align: center;
+}   
+
+.About-Me{
+    position: relative;
+    align-items: center;
+    width:100%;
+    max-width:400px;
+    height: 750px;
+    border-radius: 20px;
+
+    font-family:"just me again down here";
+    background-color: #B7C8B4;
+    opacity: 0.92;
+    
+}
+
+.coming-soon-projects{
+    position: relative;
+    height: 150px;
+    width: 300px;
+
+    bottom: -45px;
+    left: 50px;
+}
+
+ul{
+font-size: 14px;
+}
+
+p{
     font-family:"Jacques Francois";
-    font-size: 10px;
+    font-size: 17px;
+}
+
+h1{
+    font-size: 37px;
+}
+
+} 
+
+@media (max-width:1160px){
+.my-buttons{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    gap: 80px;
+   }
+
+   button {
+    padding: 20px 30px;
+    border-radius: 20cm;
+    border: none;
+    background-color: #ABB7AA;
+    font-size: 12px;
+    font-family:"Jacques Francois";
+    color: white;
+    cursor:pointer;
+   
+     width: 160px;
+     height: 60px;
+     text-align: center;
+}
+
+.float-doodle-2{
+    display: none;
+
+}
+}
+
+@media (max-width:1000px){
+
+.float-doodle-15{
+
+display:none;
+}
+
+.float-doodle-3{
+    display: none;
+}
+
+.float-doodle-12{
+    display: none;
+}
+.float-doodle-10{
+    display: none;
+}
+.float-doodle-7{
+    display: none;
+}
+.float-doodle-1{
+    display: none;
+}
+.float-doodle-5{
+    display: none;
+}
+
+.my-buttons{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    gap: 80px;
+   }
+
+   .float-doodle-13{
+    display: none;
+}
+
+.about-me-img{
+  height: 250px; 
+  width: 300px;  
+}
+
+.float-doodle-11{
+    position: relative;
+    bottom: 730px;
+    left: 50px;
+    width: 310px;
+}
+
+.content-box{
+    position: relative;
+    width: 500px;
+    height: 750px;
+
+    background-color:#B7C8B4; 
+
+    border-radius: 20px;
+    opacity: 0.92;
+    padding-top: 30px;
+    padding-left:30px;
+    left: 10px;
+
+    }
+
+    .Current-Developments{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 350px;
+    height: 750px;
+    border-radius: 20px;
+    left: 15px;
+    gap: 20px;
+
+    font-family:"just me again down here";
+    font-size: 40px;
+    background-color: #B7C8B4;
+    opacity: 0.92;
+}
+
+.DREAMX-PAGE{
+    flex-direction: row;
+
+    gap:50px;
+    font-size: 50px;
+    text-align: center;
+}   
+
+.About-Me{
+    position: relative;
+    align-items: center;
+    width:100%;
+    max-width:400px;
+    height: 750px;
+    border-radius: 20px;
+
+    font-family:"just me again down here";
+    background-color: #B7C8B4;
+    opacity: 0.92;
+    
+}
+
+.coming-soon-projects{
+    position: relative;
+    height: 140px;
+    width: 290px;
+
+    bottom: -50px;
+    left: 50px;
+}
+
+ul{
+font-size: 14px;
+}
+
+p{
+    font-family:"Jacques Francois";
+    font-size: 17px;
+}
+
+h1{
+    font-size: 37px;
+}
+
+}
+
+@media (max-width:896px){
+.my-buttons{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    gap: 50px;
+   }
+
+   .button {
+    padding: 20px 30px;
+    border-radius: 20cm;
+    border: none;
+    background-color: #ABB7AA;
+    font-size: 12px;
+    font-family:"Jacques Francois";
+    color: white;
+    cursor:pointer;
+   
+     width: 160px;
+     height: 60px;
+     text-align: center;
+}
+
+.coming-soon-projects{
+    position: relative;
+    height: 150px;
+    width: 300px;
+
+    bottom: -50px;
+    left: 20px;
+}
+
+}
+
+@media (max-width:850px){
+
+.float-doodle-15{
+
+display:none;
+}
+
+.float-doodle-3{
+    display: none;
+}
+
+.float-doodle-12{
+    display: none;
+}
+.float-doodle-10{
+    display: none;
+}
+.float-doodle-7{
+    display: none;
+}
+.float-doodle-1{
+    display: none;
+}
+.float-doodle-5{
+    display: none;
+}
+
+.my-buttons{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    gap: 50px;
+   }
+
+      .button {
+    padding: 20px 30px;
+    border-radius: 20cm;
+    border: none;
+    background-color: #ABB7AA;
+    font-size: 12px;
+    font-family:"Jacques Francois";
+    color: white;
+    cursor:pointer;
+   
+     width: 160px;
+     height: 60px;
+     text-align: center;
+}
+
+   .float-doodle-13{
+    display: none;
+}
+
+.about-me-img{
+  height: 250px; 
+  width: 300px;  
+}
+
+.float-doodle-11{
+    position: relative;
+    bottom: 1150px;
+    left: 200px;
+    width: 350px;
+}
+
+.content-box{
+    position: relative;
+    width: 500px;
+    height: 750px;
+
+    background-color:#B7C8B4; 
+
+    border-radius: 20px;
+    opacity: 0.92;
+    padding-top: 30px;
+    padding-left:30px;
+    left: 120px;
+
+    }
+
+    .Current-Developments{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 500px;
+    height: 375px;
+    border-radius: 20px;
+    left: 130px;
+    gap: 20px;
+
+    font-family:"just me again down here";
+    background-color: #B7C8B4;
+    opacity: 0.92;
+}
+
+.DREAMX-PAGE{
+    flex-direction: column;
+
+    gap:50px;
+    font-size: 50px;
+    text-align: center;
+}   
+
+.About-Me{
+    position: relative;
+    align-items: center;
+    width:100%;
+    max-width:400px;
+    height: 750px;
+    border-radius: 20px;
+
+    font-family:"just me again down here";
+    background-color: #B7C8B4;
+    opacity: 0.92;
+    
+}
+
+.coming-soon-projects{
+    position: relative;
+    height: 150px;
+    width: 300px;
+
+    bottom: -50px;
+    left: 100px;
+}
+
+ul{
+font-size: 14px;
+}
+
+p{
+    font-family:"Jacques Francois";
+    font-size: 17px;
+}
+
+h1{
+    font-size: 37px;
+}
+
 }
 
 
@@ -326,9 +786,25 @@ display:none;
 
 .my-buttons{
     display:flex;
+    flex-direction: row;
     justify-content:center;
-    gap: 110px;
+    gap: 40px;
    }
+
+button {
+    padding: 20px 30px;
+    border-radius: 20cm;
+    border: none;
+    background-color: #ABB7AA;
+    font-size: 12px;
+    font-family:"Jacques Francois";
+    color: white;
+    cursor:pointer;
+   
+     width: 150px;
+     height: 50px;
+     text-align: center;
+}
 
    .float-doodle-13{
     display: none;
@@ -341,34 +817,48 @@ display:none;
 
 .float-doodle-11{
     position: relative;
-    bottom: 600px;
-    left: -15px;
-    width: 220px;
+    bottom: 1150px;
+    left: 200px;
+    width: 350px;
 }
 
 .content-box{
-    width: 850px;
+    position: relative;
+    width: 500px;
     height: 750px;
 
     background-color:#B7C8B4; 
 
     border-radius: 20px;
     opacity: 0.92;
-    padding-top: 0px;
+    padding-top: 30px;
     padding-left:30px;
-   
+    left: 110px;
+
     }
 
     .Current-Developments{
+    display: flex;
+    flex-direction: column;
     position: relative;
-    width: 300px;
-    height: 750px;
+    width: 500px;
+    height: 375px;
     border-radius: 20px;
+    left: 110px;
+    gap: 20px;
 
     font-family:"just me again down here";
     background-color: #B7C8B4;
     opacity: 0.92;
 }
+
+.DREAMX-PAGE{
+    flex-direction: column;
+
+    gap:50px;
+    font-size: 50px;
+    text-align: center;
+}   
 
 .About-Me{
     position: relative;
@@ -386,9 +876,558 @@ display:none;
 
 .coming-soon-projects{
     position: relative;
-    height: 100px;
+    height: 150px;
+    width: 300px;
 
     bottom: -50px;
-    left: 1px;
+    left: 100px;
+}
+
+ul{
+font-size: 14px;
+}
+
+p{
+    font-family:"Jacques Francois";
+    font-size: 17px;
+}
+
+h1{
+    font-size: 37px;
+}
+
+}
+
+@media (max-width:550px){
+
+.float-doodle-15{
+
+display:none;
+}
+
+.float-doodle-3{
+    display: none;
+}
+
+.float-doodle-12{
+    display: none;
+}
+.float-doodle-10{
+    display: none;
+}
+.float-doodle-7{
+    display: none;
+}
+.float-doodle-1{
+    display: none;
+}
+.float-doodle-5{
+    display: none;
+}
+
+.float-doodle-8{
+    display: none;
+}
+
+.my-buttons{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    gap: 60px;
+   }
+
+   .float-doodle-13{
+    display: none;
+}
+
+.about-me-img{
+  height: 250px; 
+  width: 300px;  
+}
+
+.float-doodle-11{
+    position: relative;
+    bottom: 1150px;
+    left: 100px;
+    width: 350px;
+}
+
+.content-box{
+    position: relative;
+    width: 470px;
+    height: 750px;
+
+    background-color:#B7C8B4; 
+
+    border-radius: 20px;
+    opacity: 0.92;
+    padding-top: 30px;
+    padding-left:30px;
+    left: 15px;
+
+    }
+
+    .Current-Developments{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 500px;
+    height: 375px;
+    border-radius: 20px;
+    left: 15px;
+    gap: 15px;
+
+    font-family:"just me again down here";
+    background-color: #B7C8B4;
+    opacity: 0.92;
+}
+
+.DREAMX-PAGE{
+    flex-direction: column;
+
+    gap:50px;
+    font-size: 50px;
+    text-align: center;
+}   
+
+.About-Me{
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    width:100%;
+    max-width:400px;
+    height: 750px;
+    border-radius: 20px;
+
+    font-family:"just me again down here";
+    background-color: #B7C8B4;
+    opacity: 0.92;
+    
+}
+
+.coming-soon-projects{
+    position: relative;
+    height: 150px;
+    width: 300px;
+
+    bottom: -50px;
+    left: 100px;
+}
+
+ul{
+font-size: 14px;
+}
+
+p{
+    font-family:"Jacques Francois";
+    font-size: 17px;
+}
+
+h1{
+    font-size: 37px;
+}
+
+}
+
+@media (max-width:440px){
+
+.float-doodle-15{
+
+display:none;
+}
+
+.float-doodle-3{
+    display: none;
+}
+
+.float-doodle-12{
+    display: none;
+}
+.float-doodle-10{
+    display: none;
+}
+.float-doodle-7{
+    display: none;
+}
+.float-doodle-1{
+    display: none;
+}
+.float-doodle-5{
+    display: none;
+}
+
+.float-doodle-2{
+    display: none;
+}
+
+.float-doodle-4{
+    display: none;
+}
+
+.float-doodle-6{
+    display: none;
+}
+
+.float-doodle-8{
+    display: none;
+}
+
+.my-buttons{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    gap: 40px;
+   }
+
+   .float-doodle-13{
+    display: none;
+}
+
+.about-me-img{
+  height: 250px; 
+  width: 300px;  
+}
+
+.float-doodle-11{
+    position: relative;
+    bottom: 1150px;
+    left: 80px;
+    width: 350px;
+}
+
+.content-box{
+    position: relative;
+    width: 450px;
+    height: 750px;
+
+    background-color:#B7C8B4; 
+
+    border-radius: 20px;
+    opacity: 0.92;
+    padding-top: 30px;
+    padding-left:30px;
+    left: 20px;
+
+    }
+
+    .Current-Developments{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 450px;
+    height: 375px;
+    border-radius: 20px;
+    left: 20px;
+    gap: 20px;
+
+    font-family:"just me again down here";
+    background-color: #B7C8B4;
+    opacity: 0.92;
+}
+
+.DREAMX-PAGE{
+    flex-direction: column;
+
+    gap:50px;
+    font-size: 50px;
+    text-align: center;
+}   
+
+.About-Me{
+    position: relative;
+    align-items: center;
+    width:100%;
+    max-width:400px;
+    height: 750px;
+    border-radius: 20px;
+
+    font-family:"just me again down here";
+    background-color: #B7C8B4;
+    opacity: 0.92;
+    
+}
+
+.coming-soon-projects{
+    position: relative;
+    height: 150px;
+    width: 300px;
+
+    bottom: -50px;
+    left: 100px;
+}
+
+ul{
+font-size: 14px;
+}
+
+p{
+    font-family:"Jacques Francois";
+    font-size: 17px;
+}
+
+h1{
+    font-size: 37px;
+}
+
+button {
+    padding: 20px 30px;
+    border-radius: 20cm;
+    border: none;
+    background-color: #ABB7AA;
+    font-size: 12px;
+    font-family:"Jacques Francois";
+    color: white;
+    cursor:pointer;
+   
+     width: 130px;
+     height: 50px;
+     text-align: center;
+}
+
+}
+
+@media (max-width:469px){
+.my-buttons{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    gap: 40px;
+   }
+
+   button {
+    padding: 20px 30px;
+    border-radius: 20cm;
+    border: none;
+    background-color: #ABB7AA;
+    font-size: 12px;
+    font-family:"Jacques Francois";
+    color: white;
+    cursor:pointer;
+   
+     width: 130px;
+     height: 50px;
+     text-align: center;
+}
+
+}
+
+@media (max-width:360px){
+
+.float-doodle-15{
+
+display:none;
+}
+
+.float-doodle-3{
+    display: none;
+}
+
+.float-doodle-12{
+    display: none;
+}
+.float-doodle-10{
+    display: none;
+}
+.float-doodle-7{
+    display: none;
+}
+.float-doodle-1{
+    display: none;
+}
+.float-doodle-5{
+    display: none;
+}
+
+.float-doodle-2{
+    display: none;
+}
+
+.float-doodle-4{
+    display: none;
+}
+
+.float-doodle-6{
+    display: none;
+}
+
+.float-doodle-8{
+    display: none;
+}
+
+.my-buttons{
+    display:flex;
+    justify-content:center;
+    gap: 110px;
+   }
+
+   .float-doodle-13{
+    display: none;
+}
+
+.about-me-img{
+  height: 150px; 
+  width: 160px;  
+}
+
+.float-doodle-11{
+    position: relative;
+    bottom: 100px;
+    left: 20px;
+    width: 300px;
+}
+
+.float-doodle-14{
+    display: none;
+}
+
+.content-box{
+   
+    width: 310px;
+    height: 670px;
+
+    background-color:#B7C8B4; 
+
+    border-radius: 20px;
+    opacity: 0.92;
+    padding-top: 30px;
+    padding-left:30px;
+    left: 5px;
+   
+    }
+
+    .Current-Developments{
+    position: relative;
+    width: 100%;
+    max-width: 350px;
+    height: 325px;
+    border-radius: 20px;
+    left: 5px;
+    gap: 1px;
+
+    font-family:"just me again down here";
+    background-color: #B7C8B4;
+    opacity: 0.92;
+}
+
+.DREAMX-PAGE{
+    flex-direction: column;
+    justify-content:center;
+    gap:50px;
+
+    font-size: 50px;
+    text-align: center;
+}    
+
+.ABOUT-MEH-PAGE{
+    flex-direction: column;    
+    justify-content:center;
+    gap:30px;
+
+
+    font-size: 50px;
+    text-align: center;
+}
+
+.About-Me{
+    position: relative;
+    align-items: center;
+    width:100%;
+    max-width:360px;
+    height: 325px;
+    border-radius: 20px;
+    left: 5px;
+
+    font-family:"just me again down here";
+    background-color: #B7C8B4;
+    opacity: 0.92;
+    
+}
+
+.coming-soon-projects{
+    position: relative;
+    height: 120px;
+    width: 220px;
+
+    bottom: -20px;
+    left: 50px;
+
+}
+
+button {
+    padding: 20px 30px;
+    border-radius: 20cm;
+    border: none;
+    background-color: #ABB7AA;
+    font-size: 10px;
+    font-family:"Jacques Francois";
+    color: white;
+    cursor:pointer;
+   
+     width: 110px;
+     height: 50px;
+     text-align: center;
+}
+
+.my-buttons{
+    display:flex;
+    justify-content:center;
+    gap: 60px;
+    flex-wrap:wrap;
+}
+
+ul{
+font-size: 12px;
+}
+
+p{
+    font-family:"Jacques Francois";
+    font-size: 15px;
+}
+
+h1{
+    font-size: 35px;
+}
+
+.coming-soon-game {
+    height: 110px;
+    width: 200px;
+}
+
+.coming-soon-photography{
+    height: 110px;
+    width: 200px;
+}
+
+.project-row-1{
+    flex-direction: column;
+    display:flex;
+    justify-content: flex-start;
+    gap: 10px;
+    align-items:center;
+
+    border-bottom:2px solid #8A9985;
+
+    padding-bottom:10px;
+    margin-bottom:20px;
+}
+
+.project-row-2{
+    flex-direction: column;
+    display:flex;
+    justify-content: flex-start;
+    gap: 5px;
+    align-items:center;
+
+    border-bottom:2px solid #8A9985;
+
+    padding-bottom:10px;
+    margin-bottom:20px;
 }
 }
+
+
+
+
+
+
+
