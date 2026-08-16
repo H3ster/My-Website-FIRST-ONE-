@@ -669,13 +669,13 @@ display:none;
 }
 
 .about-me-img{
-  height: 250px; 
-  width: 300px;  
+  height: 200px; 
+  width: 250px;  
 }
 
 .float-doodle-11{
     position: relative;
-    bottom: 1150px;
+    bottom: 1125px;
     left: 200px;
     width: 350px;
 }
@@ -691,7 +691,7 @@ display:none;
     opacity: 0.92;
     padding-top: 30px;
     padding-left:30px;
-    left: 120px;
+    left: 130px;
 
     }
 
@@ -702,7 +702,7 @@ display:none;
     width: 500px;
     height: 375px;
     border-radius: 20px;
-    left: 130px;
+    left: 150px;
     gap: 20px;
 
     font-family:"just me again down here";
@@ -716,15 +716,22 @@ display:none;
     gap:50px;
     font-size: 50px;
     text-align: center;
-}   
+}  
+
+.ABOUT-MEH-PAGE{
+    flex-direction: column;    
+    justify-content:center;
+    gap:30px;
+}
 
 .About-Me{
     position: relative;
     align-items: center;
     width:100%;
     max-width:400px;
-    height: 750px;
+    height: 375px;
     border-radius: 20px;
+    left: 190px;
 
     font-family:"just me again down here";
     background-color: #B7C8B4;
@@ -757,7 +764,20 @@ h1{
 }
 
 
+
 @media (max-width:768px){
+
+    .banner{
+    height:120px;
+    width:100%;
+    max-width:1400px;
+    background-image:url("Rectangle\ 2\ \(1\).png");
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:auto;
+}
 
 .float-doodle-15{
 
@@ -811,15 +831,15 @@ button {
 }
 
 .about-me-img{
-  height: 250px; 
-  width: 300px;  
+  height: 200px; 
+  width: 250px;  
 }
 
 .float-doodle-11{
     position: relative;
     bottom: 1150px;
-    left: 200px;
-    width: 350px;
+    left: 210px;
+    width: 300px;
 }
 
 .content-box{
@@ -833,18 +853,17 @@ button {
     opacity: 0.92;
     padding-top: 30px;
     padding-left:30px;
-    left: 110px;
-
+    left: 100px;
     }
 
     .Current-Developments{
     display: flex;
     flex-direction: column;
     position: relative;
-    width: 500px;
+    width: 400px;
     height: 375px;
     border-radius: 20px;
-    left: 110px;
+    left: 150px;
     gap: 20px;
 
     font-family:"just me again down here";
@@ -854,6 +873,7 @@ button {
 
 .DREAMX-PAGE{
     flex-direction: column;
+    justify-content:center;
 
     gap:50px;
     font-size: 50px;
@@ -865,13 +885,20 @@ button {
     align-items: center;
     width:100%;
     max-width:400px;
-    height: 750px;
+    height: 375px;
     border-radius: 20px;
+    left: 150px;
 
     font-family:"just me again down here";
     background-color: #B7C8B4;
     opacity: 0.92;
     
+}
+
+.ABOUT-MEH-PAGE{
+    flex-direction: column;    
+    justify-content:center;
+    gap:50px;
 }
 
 .coming-soon-projects{
@@ -880,7 +907,7 @@ button {
     width: 300px;
 
     bottom: -50px;
-    left: 100px;
+    left: 50px;
 }
 
 ul{
@@ -925,6 +952,10 @@ display:none;
     display: none;
 }
 
+.float-doodle-6{
+    display: none;
+}
+
 .float-doodle-8{
     display: none;
 }
@@ -941,20 +972,20 @@ display:none;
 }
 
 .about-me-img{
-  height: 250px; 
-  width: 300px;  
+  height: 200px; 
+  width: 250px;  
 }
 
 .float-doodle-11{
     position: relative;
     bottom: 1150px;
-    left: 100px;
+    left: 70px;
     width: 350px;
 }
 
 .content-box{
     position: relative;
-    width: 470px;
+    width: 400px;
     height: 750px;
 
     background-color:#B7C8B4; 
@@ -971,7 +1002,7 @@ display:none;
     display: flex;
     flex-direction: column;
     position: relative;
-    width: 500px;
+    width: 430px;
     height: 375px;
     border-radius: 20px;
     left: 15px;
@@ -990,14 +1021,21 @@ display:none;
     text-align: center;
 }   
 
+.ABOUT-MEH-PAGE{
+    flex-direction: column;    
+    justify-content:center;
+    gap:50px;
+}
+
 .About-Me{
     flex-direction: column;
     position: relative;
     align-items: center;
     width:100%;
     max-width:400px;
-    height: 750px;
+    height: 375px;
     border-radius: 20px;
+    left: 15px;
 
     font-family:"just me again down here";
     background-color: #B7C8B4;
@@ -1031,6 +1069,18 @@ h1{
 
 @media (max-width:440px){
 
+
+    .banner{
+    height:120px;
+    width:410px;
+    background-image:url("Rectangle\ 2\ \(1\).png");
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:auto;
+}
+
 .float-doodle-15{
 
 display:none;
@@ -1049,6 +1099,7 @@ display:none;
 .float-doodle-7{
     display: none;
 }
+
 .float-doodle-1{
     display: none;
 }
@@ -1090,14 +1141,14 @@ display:none;
 
 .float-doodle-11{
     position: relative;
-    bottom: 1150px;
-    left: 80px;
-    width: 350px;
+    bottom: 1160px;
+    left: 60px;
+    width: 300px;
 }
 
 .content-box{
     position: relative;
-    width: 450px;
+    width: 360px;
     height: 750px;
 
     background-color:#B7C8B4; 
@@ -1114,7 +1165,7 @@ display:none;
     display: flex;
     flex-direction: column;
     position: relative;
-    width: 450px;
+    width: 360px;
     height: 375px;
     border-radius: 20px;
     left: 20px;
@@ -1153,7 +1204,7 @@ display:none;
     width: 300px;
 
     bottom: -50px;
-    left: 100px;
+    left: 50px;
 }
 
 ul{
@@ -1191,7 +1242,7 @@ button {
     display:flex;
     flex-direction: row;
     justify-content:center;
-    gap: 40px;
+    gap: 80px; 
    }
 
    button {
@@ -1212,6 +1263,17 @@ button {
 }
 
 @media (max-width:360px){
+
+.banner{
+    height:120px;
+    width:340px;
+    background-image:url("Rectangle\ 2\ \(1\).png");
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:auto;
+}
 
 .float-doodle-15{
 
@@ -1271,7 +1333,7 @@ display:none;
 
 .float-doodle-11{
     position: relative;
-    bottom: 100px;
+    bottom: 1020px;
     left: 20px;
     width: 300px;
 }
@@ -1301,8 +1363,12 @@ display:none;
     max-width: 350px;
     height: 325px;
     border-radius: 20px;
+    padding-top: 10px;
     left: 5px;
-    gap: 1px;
+    gap: 20px;
+    font-size: 35px;
+
+
 
     font-family:"just me again down here";
     background-color: #B7C8B4;
@@ -1331,11 +1397,12 @@ display:none;
 .About-Me{
     position: relative;
     align-items: center;
-    width:100%;
-    max-width:360px;
+    width: 100%;
+    max-width: 350px;
     height: 325px;
     border-radius: 20px;
     left: 5px;
+    font-size: 35px;
 
     font-family:"just me again down here";
     background-color: #B7C8B4;
